@@ -62,6 +62,17 @@ echo "export PATH=$PATH:~/.local/bin/" >> ~/.bashrc
 source ~/.bashrc
 ```
 
+Fedora:
+```shell
+sudo dnf install python3-devel #Dependances instalation
+```
+```shell
+sudo dnf install python3-libvirt #libvirt instalation
+```
+```shell
+pip3 install virt-lightning
+```
+
 # Fetch some images
 
 Before you start your first VM, you need to fetch the images. To do so,
